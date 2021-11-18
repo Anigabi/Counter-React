@@ -1,13 +1,34 @@
-@import "~bootstrap/scss/bootstrap.scss";
+body {
+    background-color: #142740;
+}
 
-/* 
+#app {
+    margin-top: 200px;
+}
 
-    You can write your own styles here...
+div {
+    margin: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.box-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin: 20px;
+    padding: 40px;border-radius: 20px;
+    font-size: 3rem;
+    color: #F23E16;
+    background-color: #F2CDA0;
+    box-shadow: 8px -16px #D93223;
+}
+
+.title {
+    margin: 50px;
+    font-size: 4rem;
+    text-align: center;
+    color: #F23E16;
+}
